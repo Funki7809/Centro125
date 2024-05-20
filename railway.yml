@@ -1,0 +1,3 @@
+commands:
+  start:
+    - chmod -R 775 /railway/app/public
