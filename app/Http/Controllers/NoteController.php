@@ -45,6 +45,9 @@ class NoteController extends Controller
 
         $file = $request->file('image');
         $destinationPath = 'images-notes/';
+        if (!File::exists($destinationPath)) {
+            File::makeDirectory($destinationPath, 0755, true);
+        }
         $filename = time().'-'.$file->getClientOriginalName();
         $uploadSuccess = $request->file('image')->move($destinationPath, $filename);
         $newImage = $destinationPath.$filename;
