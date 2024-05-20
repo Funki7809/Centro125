@@ -39,13 +39,12 @@ class NoteController extends Controller
      */
     public function store(Request $request)
     {
-         
         if(!$request->hasFile('image')) {
             return 'error';
         }
 
         $file = $request->file('image');
-        $destinationPath = 'images-notes/';
+        $destinationPath = public_path('images-notes');
         if (!File::exists($destinationPath)) {
             File::makeDirectory($destinationPath, 0755, true);
         }
