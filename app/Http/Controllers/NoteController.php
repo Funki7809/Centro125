@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Author;
 use App\Models\Category;
 use App\Models\Picture;
+use Illuminate\Support\Facades\File;
 
 class NoteController extends Controller
 {
