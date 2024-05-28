@@ -29,13 +29,13 @@
                                         </span>
 
                                         <span class="f1-s-3">
-                                            {{ ucfirst($note->created_at->locale('es')->isoFormat('LLLL')) }}
+                                            {{ ucfirst($note->created_at->locale('es')->isoFormat('LL')) }}
                                         </span>
                                     </div>
 
-                                    <p class="f1-s-1 cl6 p-b-24">
-                                        {{ $note->description }}
-                                    </p>
+                                    <div class="f1-s-1 cl6 p-b-24" style="max-height: 219px; overflow: hidden;">
+                                        {!! $note->description !!}
+                                    </div>
 
                                     <a href="{{ route('note.show', [$note->id]) }}" class="f1-s-1 cl9 hov-cl10 trans-03">
                                         Leer más

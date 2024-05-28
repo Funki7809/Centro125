@@ -16,7 +16,7 @@
 				</span>
 			</div>
 		</div>
-	</div>}
+	</div>
     
     	<!-- Content -->
 	<section class="bg0 p-b-140 p-t-10">
@@ -43,7 +43,7 @@
 									<span class="m-rl-3">-</span>
 
 									<span>
-                                        {{ ucfirst($note->created_at->locale('es')->isoFormat('LLLL')) }}
+                                        {{ ucfirst($note->created_at->locale('es')->isoFormat('LL')) }}
 									</span>
 								</span>
 							</div>
@@ -52,9 +52,9 @@
 								<img src="{{ asset($note->picture->title) }}" alt="IMG">
 							</div>
 
-							<p class="f1-s-11 cl6 p-b-25">
-                                {{ ucfirst($note->description) }}
-                        	</p>
+							<div class="f1-s-11 cl6 p-b-25">
+								{!! $note->description !!}
+							</div>
 						</div>
 					</div>
 				</div>

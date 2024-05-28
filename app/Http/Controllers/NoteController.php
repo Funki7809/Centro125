@@ -44,7 +44,7 @@ class NoteController extends Controller
         }
 
         $file = $request->file('image');
-        $destinationPath = 'images-notes';
+        $destinationPath = 'images-notes/';
         if (!File::exists($destinationPath)) {
             File::makeDirectory($destinationPath, 0755, true);
         }

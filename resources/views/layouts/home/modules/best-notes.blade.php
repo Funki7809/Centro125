@@ -24,7 +24,7 @@
                                 -
                             </span>
                             <span class="f1-s-3 cl11">
-                                {{ ucfirst($bestNotes[0]->created_at->locale('es')->isoFormat('LLLL')) }}
+                                {{ ucfirst($bestNotes[0]->created_at->locale('es')->isoFormat('LL')) }}
                             </span>
                         </span>
                     </div>
@@ -86,7 +86,7 @@
                                         -
                                     </span>
                                     <span class="f1-s-3 cl11">
-                                        {{ ucfirst($bestNotes[1]->created_at->locale('es')->isoFormat('LLLL')) }}
+                                        {{ ucfirst($bestNotes[1]->created_at->locale('es')->isoFormat('LL')) }}
                                     </span>
                                 </span>
                             </div>
@@ -132,7 +132,7 @@
                                     -
                                 </span>
                                 <span class="f1-s-3 cl11">
-                                    {{ ucfirst($bestNotes[2]->created_at->locale('es')->isoFormat('LLLL')) }}
+                                    {{ ucfirst($bestNotes[2]->created_at->locale('es')->isoFormat('LL')) }}
                                 </span>
                             </span>
                         </div>
@@ -180,7 +180,7 @@
                                     -
                                 </span>
                                 <span class="f1-s-3 cl11">
-                                    {{ ucfirst($bestNotes[3]->created_at->locale('es')->isoFormat('LLLL')) }}
+                                    {{ ucfirst($bestNotes[3]->created_at->locale('es')->isoFormat('LL')) }}
                                 </span>
                             </span>
                         </div>

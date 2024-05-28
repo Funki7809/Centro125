@@ -16,7 +16,7 @@
 								Somos una plataforma de información confiable y dinámica al servicio de la comunidad del Estado de México. Nos dedicamos a ofrecer una cobertura completa y detallada de noticias y temas de interés regional, asegurándonos de que nuestra información sea siempre atractiva, exhaustiva, veraz y oportuna. A través de nuestro compromiso con la verdad y la actualidad, buscamos mantener informados a nuestros lectores con la más alta calidad periodística, abordando una amplia variedad de asuntos que impactan y son relevantes para la sociedad del Estado de México.							</p>
 
 							<p class="f1-s-1 cl11 p-b-16">
-								¿Alguna pregunta? llamanos (+1) 96 716 6879
+								¿Alguna pregunta? llamanos (+52)722 426 2902
 							</p>
 
 							<div class="p-t-15">

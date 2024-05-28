@@ -28,7 +28,7 @@
                             </span>
 
                             <span class="f1-s-3">
-                            {{ ucfirst($category->note->last()->created_at->locale('es')->isoFormat('LLLL')) }}
+                            {{ ucfirst($category->note->last()->created_at->locale('es')->isoFormat('LL')) }}
                             </span>
                         </span>
                     </div>
@@ -60,7 +60,7 @@
                             </span>
 
                             <span class="f1-s-3">
-                                {{ ucfirst($note->created_at->locale('es')->isoFormat('LLLL')) }}
+                                {{ ucfirst($note->created_at->locale('es')->isoFormat('LL')) }}
                             </span>
                         </span>
                     </div>
