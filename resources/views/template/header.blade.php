@@ -50,14 +50,17 @@
         <div class="menu-mobile">
 
             <ul class="main-menu-m">
+                @foreach($categories as $category)
                 <li>
-                    <a href="{{ url('/') }}">Home</a>
-                    <a href="{{ url('/') }}">
+                    <a href="{{ route('category.show', [$category->id]) }}">{{$category->name}}</a>
+                    <a href="{{ route('category.show', [$category->id]) }}">
+                
                         <span class="arrow-main-menu-m">
                             <i class="fa fa-angle-right" aria-hidden="true"></i>
                         </span>
                     </a>
                 </li>
+                @endforeach
             </ul>
         </div>
 
@@ -85,7 +88,7 @@
                     <ul class="main-menu">
                         @foreach($categories as $category)
                             <li class="main-menu-active">
-                                <a href="{{ route('category.show', [$category->id]) }}"">{{$category->name}}</a>
+                                <a href="{{ route('category.show', [$category->id]) }}">{{$category->name}}</a>
                             </li>
                         @endforeach
                     </ul>

@@ -1,7 +1,7 @@
 <!-- Headline -->
 <div class="container">
     <div class="bg0 flex-wr-sb-c p-rl-20 p-tb-8">
-        <div class="f2-s-1 size-a-2 p-r-30 size-w-0 m-tb-6 flex-wr-s-c">
+        <div class="f2-s-1 size-a-2 p-r-30 size-w-0 m-tb-6 flex-wr-s-c" style="height: 85px;">
             <span class="text-uppercase cl2 p-r-8">
                 Lo más reciente:
             </span>
