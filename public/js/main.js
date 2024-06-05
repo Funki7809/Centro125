@@ -190,26 +190,6 @@
         
 
     /*==================================================================
-    [ Play video 01 ]*/
-    try {
-        var srcOld = $('.video-mo-01').children('iframe').attr('src');
-
-        $('[data-target="#modal-video-01"]').on('click',function(){
-            $('.video-mo-01').children('iframe')[0].src += "&autoplay=1";
-
-            setTimeout(function(){
-                $('.video-mo-01').css('opacity','1');
-            },300);      
-        });
-
-        $('[data-dismiss="modal"]').on('click',function(){
-            $('.video-mo-01').children('iframe')[0].src = srcOld;
-            $('.video-mo-01').css('opacity','0');
-        });
-    } catch(er) {console.log(er);}
-   
-
-    /*==================================================================
     [ Tab mega menu ]*/
     try {
         $(window).on('load', function(){
@@ -254,8 +234,6 @@
                 else {
                     count++;
                 }
-
-                console.log($(data[count]).text());
 
                 $(slideTxt).append($(data[count]).clone());
                 $(slideTxt).find('.slide100-txt-item.clone').addClass(animIn + ' visible-true');

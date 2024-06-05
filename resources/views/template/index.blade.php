@@ -27,8 +27,6 @@
 
 	<link rel="stylesheet" type="text/css" href="{!! asset('css/main.css') !!}">
 <!--===============================================================================================-->
-   <!-- Estilos de paginación de Laravel -->
-   <link href="{{ asset('vendor/pagination/pagination.css') }}" rel="stylesheet">
     
 </head>
 
